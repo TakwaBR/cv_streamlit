@@ -3,6 +3,16 @@ import time
 import plotly.graph_objects as go
 import jeux
 import competences
+import streamlit.components.v1 as components
+import toml
+
+secrets = st.secrets["analytics"]
+
+components.html(
+    secrets["ga_snippet"],
+    height=0,
+    width=0
+)
 
 # =========================
 # PAGE CONFIGURATION
