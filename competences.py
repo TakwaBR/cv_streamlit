@@ -1,12 +1,12 @@
 import streamlit as st
 
 # =========================
-# FUNCTION TO DISPLAY SKILLS
+# # FUNCTION TO DISPLAY SKILLS
 # =========================
 def run():
     st.header("Compétences")
 
-    # HTML table for displaying skills
+    # Tableau HTML pour afficher les compétences
     st.markdown("""
         <style>
         table.cv-table {
@@ -31,45 +31,45 @@ def run():
 
         <table class="cv-table">
         <tr>
-            <th>Category</th>
-            <th>Skills</th>
+            <th>Catégorie</th>
+            <th>Compétences</th>
         </tr>
 
         <tr>
-            <td><b>Omics tools</b></td>
+            <td><b>Outils omiques</b></td>
             <td>FastQC, Trimmomatic, HISAT2, StringTie, DIABLO</td>
         </tr>
 
         <tr>
-            <td><b>Structural bioinformatics tools</b></td>
+            <td><b>Outils en bioinformatique structurale</b></td>
             <td>PyMOL, VMD, Autodock, Vina, PyDock, AMBER, Gromacs</td>
         </tr>
 
         <tr>
-            <td><b>Data analysis tools</b></td>
-            <td>Unsupervised methods (PCA, K-means, HCA)<br>
-                Supervised methods (neural networks, linear and logistic regressions, CART)
+            <td><b>Outils d’analyse de données</b></td>
+            <td>Méthodes non supervisées (ACP, K-means, HCA)<br>
+                Méthodes supervisées (réseaux de neurones, régressions linéaire et logistique, CART)
             </td>
         </tr>
 
         <tr>
-            <td><b>Programming languages</b></td>
-            <td>Python, Bash, R and SQL, C, Java (basics)</td>
+            <td><b>Langages de programmation</b></td>
+            <td>Python, Bash, R et SQL, C, Java (notions)</td>
         </tr>
 
         <tr>
-            <td><b>Project management / scientific environments</b></td>
-            <td>Conda, Github, computing cluster (SLURM)</td>
+            <td><b>Environnements / gestion de projets scientifiques</b></td>
+            <td>Conda, Github, cluster de calcul (SLURM)</td>
         </tr>
 
         <tr>
-            <td><b>Office tools</b></td>
-            <td>Microsoft Office, LibreOffice</td>
+            <td><b>Outils bureautiques</b></td>
+            <td>Suite Office, LibreOffice</td>
         </tr>
 
         <tr>
-            <td><b>Soft skills</b></td>
-            <td>Teamwork, project management, creativity, interdisciplinary work</td>
+            <td><b>Compétences transversales</b></td>
+            <td>Travail en équipe, gestion de projet, créativité, pluridisciplinarité</td>
         </tr>
 
         </table>
